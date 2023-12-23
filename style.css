@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+  }
+  .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center
+      justify-content: center
+      max-width: 100vw;
+      height: 100vh;
+  }
+  .naruto {
+      max-width:33%;
+      min-width:300px;
+  }
+  .btn-kagebunshin{
+      margin:16px 0;
+      padding:8px 12px;
+      max-width:200px;
+      position:fixed;
+      bottom:20px;
+      font-weight:700;
+      outline:none;
+      border-radius:8px;
+      box-shadow:none;
+      border-color:#e37933;
+      color:white;
+      background:#e37933;
+  }
+  .kagebunshin{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      margin-bottom:40px;
+      width:10%;
+  }
